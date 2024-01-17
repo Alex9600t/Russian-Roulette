@@ -1,1 +1,55 @@
+/* Создай кнопку при клике на которую в консоль будет выводиться случайное значение от 1 до 8 */
 
+.wrapper {
+    position: relative;
+    width: 200px;
+    /* Задайте ширину и высоту контейнера в зависимости от ваших потребностей */
+    height: 200px;
+    margin: 150px auto;
+    /* Для центрирования контейнера на странице */
+}
+
+.item {
+    position: absolute;
+    width: 30px;
+    /* Задайте ширину и высоту элемента в зависимости от ваших потребностей */
+    height: 30px;
+    background-color: #3498db;
+    /* Цвет фона элемента */
+
+    /* Расположение элементов по кругу */
+    transform-origin: 50% 50%;
+}
+
+.item:nth-child(1) {
+    transform: rotate(0deg) translate(100px) rotate(0deg);
+}
+
+.item:nth-child(2) {
+    transform: rotate(45deg) translate(100px) rotate(-45deg);
+}
+
+.item:nth-child(3) {
+    transform: rotate(90deg) translate(100px) rotate(-90deg);
+}
+
+.item:nth-child(4) {
+    transform: rotate(135deg) translate(100px) rotate(-135deg);
+}
+
+.item:nth-child(5) {
+    transform: rotate(180deg) translate(100px) rotate(-180deg);
+}
+
+.item:nth-child(6) {
+    transform: rotate(225deg) translate(100px) rotate(-225deg);
+}
+
+.item:nth-child(7) {
+    background-color: lightgreen;
+    transform: rotate(270deg) translate(100px) rotate(-270deg);
+}
+
+.item:nth-child(8) {
+    transform: rotate(315deg) translate(100px) rotate(-315deg);
+}
