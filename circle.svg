@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 400 400" width="300" heiht="300">
+    <circle cx="100" cy="100" r="100" fill="transparent" />
+    <circle r="15" x1="100" y1="0" x2="100" y2="20" fill="#3498db" stroke-width="2"
+        transform="rotate(0 100 100)" />
+    <circle r="15" x1="100" y1="0" x2="100" y2="20" fill="lightgreen" stroke-width="2"
+        transform="rotate(45 100 100)" />
+    <circle r="15" x1="100" y1="0" x2="100" y2="20" fill="#3498db" stroke-width="2"
+        transform="rotate(90 100 100)" />
+    <circle r="15" x1="100" y1="0" x2="100" y2="20" fill="#3498db" stroke-width="2"
+        transform="rotate(135 100 100)" />
+    <circle r="15" x1="100" y1="0" x2="100" y2="20" fill="#3498db" stroke-width="2"
+        transform="rotate(180 100 100)" />
+    <circle r="15" x1="100" y1="0" x2="100" y2="20" fill="#3498db" stroke-width="2"
+        transform="rotate(225 100 100)" />
+    <circle r="15" x1="100" y1="0" x2="100" y2="20" fill="#3498db" stroke-width="2"
+        transform="rotate(270 100 100)" />
+    <circle r="15" x1="100" y1="0" x2="100" y2="20" fill="#3498db" stroke-width="2"
+        transform="rotate(315 100 100)" />
+</svg>
