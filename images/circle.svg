@@ -2,7 +2,7 @@
     <circle cx="100" cy="100" r="100" fill="transparent" />
     <circle r="15" x1="100" y1="0" x2="100" y2="20" fill="#3498db" stroke-width="2"
         transform="rotate(0 100 100)" />
-    <circle r="15" x1="100" y1="0" x2="100" y2="20" fill="lightgreen" stroke-width="2"
+    <circle r="15" x1="100" y1="0" x2="100" y2="20" fill="#3498db" stroke-width="2"
         transform="rotate(45 100 100)" />
     <circle r="15" x1="100" y1="0" x2="100" y2="20" fill="#3498db" stroke-width="2"
         transform="rotate(90 100 100)" />
