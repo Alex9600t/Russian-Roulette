@@ -10,9 +10,10 @@
 </head>
 
 <body>
-    <h1>Это ковнокод!!1! РЕФОКТОР КОДА НА ЭТОМ РЕПЕ</h1>
-    <a url="https://github.com/dimabreus/Russian-Roulette-refact">Реп</a>
-    <h1>Русская РулетКа <img style="width: 50px; border-radius: 50px;" src="https://liliya-n.ru/upload/files/katalog/ruleti/4620034970054-1.jpg" alt="рулет"></h1>
+    <h1>Русская РулетКа 
+        <img style="width: 50px; border-radius: 50px;"
+            src="https://liliya-n.ru/upload/files/katalog/ruleti/4620034970054-1.jpg" alt="рулет">
+    </h1>
 
     <div class="actions">
         <button onclick="handleTwist(this)" id="twist">Крутить</button>
@@ -23,9 +24,8 @@
     <br>
 
     <div class="theme">
-        <!-- <button onclick="changeTheme(this)" id="Theme">Поменять тему</button> -->
         <p>Тема:</p>
-        <select id="theme_select"onchange="changeTheme(this.value)">
+        <select id="theme_select" onchange="changeTheme(this.value)">
             <option value="1" selected>1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -35,13 +35,13 @@
         </select>
     </div>
 
-    <div class="circle">
-        <img src="images/circle.svg" alt="Circle">
+    <div class="drum">
+        <img src="images/drum.svg" alt="Drum">
     </div>
 
-    <audio src="audio/kurok.mp3" id="triggerAudio"></audio>
-    <audio src="audio/vistrel.mp3" id="shotAudio"></audio>
-    <audio src="audio/baraban.mp3" id="drumAudio"></audio>
+    <audio src="audio/trigger.mp3" id="triggerAudio"></audio>
+    <audio src="audio/shot.mp3" id="shotAudio"></audio>
+    <audio src="audio/drum.mp3" id="drumAudio"></audio>
 
     <script src="js/main.js"></script>
 </body>
