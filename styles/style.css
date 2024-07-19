@@ -1,9 +1,13 @@
-.circle {
+:root {
+    --rotateAngle: 360deg;
+}
+
+.drum {
     display: flex;
     justify-content: center;
 }
 
-.circle>img {
+.drum>img {
     width: 300px;
     height: 300px;
 }
