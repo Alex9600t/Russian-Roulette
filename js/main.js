@@ -68,9 +68,8 @@ function changeTheme(theme) {
     Object.keys(intervals).forEach(intervalKey => {
         clearAndUndefineInterval(intervals, intervalKey)
     });
-
-    if (Object.keys(intervals).includes(theme)) {
-        document.body.style.background = intervals[theme]
+    if (Object.keys(themes).includes(theme)) {
+        document.body.style.background = themes[theme]
     } else if (theme === "6") {
         intervals.changeGradientDirectionTheme6Interval = setInterval(() => {
             document.body.style.background = `linear-gradient(${currentStepTheme6 ? "-" : ""}90deg, ${currentGradientTheme6}`;
